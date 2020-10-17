@@ -13,7 +13,7 @@
     
     
       
-        <title>Development Environment - Phippsy's Devlog</title>
+        <title>About - Phippsy's Devlog</title>
       
     
     
@@ -56,7 +56,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#development-environment" class="md-skip">
+        <a href="#about" class="md-skip">
           Skip to content
         </a>
       
@@ -84,7 +84,7 @@
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
-              Development Environment
+              About
             
           </span>
         </div>
@@ -166,11 +166,20 @@
       
       
 
+  
 
-  <li class="md-nav__item">
-    <a href="../about/" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+    <a href="./" class="md-nav__link md-nav__link--active">
       About
     </a>
+    
   </li>
 
     
@@ -191,76 +200,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#a-note-about-docker" class="md-nav__link">
-    A note about Docker
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#server" class="md-nav__link">
-    Server
-  </a>
-  
-    <nav class="md-nav" aria-label="Server">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#package-management" class="md-nav__link">
-    package management
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#client" class="md-nav__link">
-    Client
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#coding-environment" class="md-nav__link">
-    Coding Environment
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#testing" class="md-nav__link">
-    Testing
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#continuous-integration" class="md-nav__link">
-    Continuous Integration
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#securing-things" class="md-nav__link">
-    Securing things
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -272,30 +211,8 @@
               
                 
                 
-                <h1 id="development-environment">Development Environment</h1>
-<p>outlines the standard development environment I use.  </p>
-<h3 id="a-note-about-docker">A note about Docker</h3>
-<p>I should note here that I will most likely move to docker because I like the concept of "build once, run anywhere'.  I am not confident enough in this approach, and suitably aware of the pitfalls associated with docker to use it just yet.</p>
-<h2 id="server">Server</h2>
-<p>Use Vultr</p>
-<p>apache, mysql, php</p>
-<p>I am looking into the role that node.js can play</p>
-<h3 id="package-management">package management</h3>
-<p>I use composer for PHP.</p>
-<p>For javascript, the concept of BUILDING rather than just writing javascript is still new to me and I have not spent the time to understand how tools like rollup, webpack etc really work.  I need to work more in this area.</p>
-<h2 id="client">Client</h2>
-<p>VS Code</p>
-<p>I've explored using the online version, but this lacks the remote ssh function I use all the time, which means I need to have vscode installed on every server.  I need to look at how the memory usage compares, because usuing vscode remote ssh does install a server into the dev environment also.</p>
-<p>Currently I use the online</p>
-<h2 id="coding-environment">Coding Environment</h2>
-<p>Javascript
-PHP</p>
-<h2 id="testing">Testing</h2>
-<p>clueless (need work here)</p>
-<h2 id="continuous-integration">Continuous Integration</h2>
-<p>clueless (need work here)</p>
-<h2 id="securing-things">Securing things</h2>
-<p>Using a Firewall and VPN Access</p>
+                <h1 id="about">About</h1>
+<p>This is an about page</p>
                 
               
               
@@ -310,6 +227,27 @@ PHP</p>
       
         
 <footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href=".." class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Home
+              </div>
+            </div>
+          </a>
+        
+        
+      </nav>
+    </div>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
