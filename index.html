@@ -1,10 +1,20 @@
 <html>
     <head>
         <script src="my-clock.umd.js"></script>
+        <style>
+            body {
+                background:#333;
+            }
+            .center{
+                position: absolute;
+                width:150px; height: 150px;
+                top: 50%; left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        </style>
     </head>
     <body>
-        <h1>michaelphipps.github.io</h1>
-        <div style="width:150px; height: 150px;">
+        <div class="center">
             <my-clock  />
         </div>
     </body>
